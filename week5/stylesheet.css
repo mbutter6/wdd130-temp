@@ -1,0 +1,39 @@
+.bubbles{
+    width: 100%;  
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
+}
+
+.desk{
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid rgb(51, 50, 50);
+    flex: 33.33%;
+    margin: 100px;
+    
+}
+
+.graphic{
+    width: 200px;
+    border-radius: 50%;
+    align-items: center;
+    border: 15px solid rgb(51, 50, 50);
+    flex: 33.33%;
+    margin: 100px;
+}
+
+.person{
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid rgb(51, 50, 50);
+    flex: 33.33%;
+    margin: 100px;
+}
+
+body{
+    background-color: grey;
+    
+    
+}
+

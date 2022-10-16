@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto&family=Rock+Salt&display=swap');
+
 ::content
    {
     max-width: 1600px;
@@ -7,15 +10,18 @@
 
 header {
    background-color: rgba(153, 10, 65, 0.7);
+   font-family: "Inconsolata";
 }
 
 nav a {
    text-align: center;
    color: rgb(240, 236, 239);
    text-decoration: none;
+   padding: 35px;
 }
 #hero-msg h1{
    text-align: center;
+   font-family: "Rock Salt";
 }
 
 #hero-msg h4{
@@ -28,6 +34,7 @@ nav a {
 
 main{
    text-align: center;
+   box-sizing: border-box;
 }
 
 #background {
@@ -41,6 +48,9 @@ nav a:hover {
 
 body{
    background-color: #ece9e9;
+   font-size: 22px;
+   padding: 0;
+   margin: 0;
 }
 
 header {
@@ -49,6 +59,9 @@ header {
 
 .home-title{
    color: rgb(4, 4, 78);
+   font-family: "Roboto";
+   font-size: 2em;
+   margin-top: 10px;
 }
 
 h4{
@@ -58,6 +71,10 @@ h4{
 .book, .join{
    color: red;
    text-decoration: none;
+   font-size: 18px;
+   padding: 15px 30px;
+   margin-top: 50px;
+   border-radius: 5px;
 }
    
 .book:hover, .join:hover{
@@ -65,17 +82,24 @@ h4{
    text-decoration: none;
 }
 
-msg h2{
-   color: goldenrod;
+.msg h2{
+   color: rgb(32, 44, 218);
+   font-family: "Rock Salt";
+   line-height: 1.5em
+   
 }
 
 .msg p{
    color: black;
+   font-size: .8em;
+   padding-bottom: 15px;
 }
 
 footer{
    color: rgb(65, 6, 65);
    text-align: center;
+   padding: 25px 50px;
+   margin-top: 200px;
 }
 
 footer a{
@@ -89,10 +113,12 @@ footer a:hover{
 
 .logo{
    width: 80px;
+   padding-top: 5px;
 }
 
 .icon{
    width: 80px;
+   padding-top: 10px;
 }
 
 footer p{
@@ -101,4 +127,11 @@ footer p{
 
 footer p a:hover{
    text-decoration: underline;
+   padding-top: 15px;
 }
+
+.river-card, .camping-card, .rapids-card{
+   margin-top: 200px 0;
+   border: 10px solid #d9c2a3;
+}
+
