@@ -71,7 +71,7 @@ margin-top: -50px;
     grid-column-gap: 70px;   
 }
 .red3 {
-width: 100%; 
+width: 750px; 
 height: 100px; 
 background-color: red; 
 grid-column-start: 1;
@@ -86,10 +86,10 @@ background-color: green;
 width: 250px; 
 height: 250px; 
 background-color: gold; 
-grid-gap: 20px;
+grid-gap: 5px;
  } 
 .blue3 {
-width: 100%;
+width: 750px;
 height: 100px; 
 background-color: blue;
 grid-column-start: 1;
@@ -142,8 +142,8 @@ background-color: red;
 z-index: 1;
  } 
 .green5 { 
-width: 200px; 
-height: 200px; 
+width: 100px; 
+height: 100px; 
 background-color: green; 
 z-index: 1;
 float: left;
@@ -151,7 +151,7 @@ margin-top: 300;
  } 
 .yellow5 {
 width: 125%; 
-height: 400px; 
+height: 200px; 
 background-color: gold; 
 z-index: 0;
 } 
@@ -180,7 +180,7 @@ grid-column-start: 1/3;
 grid-column-end: 11/3;
 grid-row-start: 3;
 grid-row-end: 3;
-margin-left: 100px;
+margin-left: 20px;
 margin-top: -50px;
 z-index: 1;
  } 
@@ -188,11 +188,9 @@ z-index: 1;
 width: 100px; 
 height: 200px; 
 background-color: gold;
-grid-column-start: 3; 
-grid-column-end: 3;
 grid-row-start: 3;
 grid-row-end: 3;
-margin-left: -150px;
+margin-left: -250px;
 margin-top: -150px;
 z-index: 1;
 } 
@@ -200,12 +198,8 @@ z-index: 1;
 width: 200px; 
 height: 200px; 
 background-color: blue; 
-grid-column-start: 2;
-grid-column-end: 2;
-grid-row-start: 1/3;
-grid-row-end: 1/3;
 margin-top: 50px;
-margin-left: -100px;
+margin-left: -400px;
 } 
 
 
