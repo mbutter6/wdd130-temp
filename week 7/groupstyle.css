@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-auto-columns: 1fr 1fr;
+    grid-gap: 0;
+}
+
+
+.dot {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+    margin-left: 50px;
+    margin-top: 0px;
+  }
+
+  .square1 {
+    height: 250px;
+    width: 250px;
+    background-color: rgb(50, 15, 179);
+    margin-left: 50px;
+    margin-bottom: -200px;
+    margin-top: -200px;
+}
+
+.square2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(15, 168, 179);
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+.littlesquare {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(179, 15, 124);
+    margin-left: 500px;
+   
+}
