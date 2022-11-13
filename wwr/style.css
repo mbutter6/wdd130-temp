@@ -238,7 +238,23 @@ footer p a:hover{
 
 .rates{
    text-align: center;
+   
 }
+
+.images{
+   display: grid;
+}
+
+.grand-card{
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+   width: 50%;
+
+}
+
+
+
 
 
 
