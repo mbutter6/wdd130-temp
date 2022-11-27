@@ -26,7 +26,6 @@ Fonts are separated by a | */
   --nav-hover-background-color: #7CA982;
 }
 
-
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
@@ -176,9 +175,6 @@ nav a:hover {
 
 
 
-
-
-
 footer{
   background-color: rgb(97, 96, 97);
   text-align: center;
@@ -188,8 +184,6 @@ footer{
   justify-content: space-around;
   align-items: center;
 }
-
-
 
 footer a{
   color: rgb(10, 10, 10);
